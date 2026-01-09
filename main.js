@@ -7,7 +7,7 @@ shareBtn.onclick = () => {
 };
 /* UNDANGAN */
 function joinWhatsAppGroup() {
-    window.open("https://whatsapp.com/channel/0029Vb6u0dtF6sn6yOLboZ3R");
+    window.open("https://whatsapp.com/channel/0029VbCCA6g1NCrOEI15qK07");
 }
 
 function openFacebookPage() {
@@ -29,6 +29,7 @@ if (videoOverlay) {
         this.remove(); // setelah klik pertama, video bisa dikontrol normal
     });
 }
+
 
 
 
