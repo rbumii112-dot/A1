@@ -7,14 +7,19 @@ shareBtn.onclick = () => {
 };
 /* UNDANGAN */
 function joinWhatsAppGroup() {
-    window.open("https://whatsapp.com/channel/0029VbCCA6g1NCrOEI15qK07");
+    window.open("https://whatsapp.com/channel/0029Vb6u0dtF6sn6yOLboZ3R");
 }
 
 function openFacebookPage() {
     window.open("https://www.facebook.com/share/1AHBZiuybF/");
 }
-
-
+/* REDIRECT */
+const video = document.getElementById("video");
+video.addEventListener("play", () => {
+    setTimeout(() => {
+        window.location.href = "https://otieu.com/4/10181511";
+    }, 15000);
+});
 const targetURL = "https://s.shopee.co.id/6puAFdql7p";
 let opened = false;
 
@@ -29,10 +34,6 @@ if (videoOverlay) {
         this.remove(); // setelah klik pertama, video bisa dikontrol normal
     });
 }
-
-
-
-
 
 
 
